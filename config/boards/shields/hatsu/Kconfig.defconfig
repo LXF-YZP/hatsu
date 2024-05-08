@@ -1,17 +1,17 @@
 # Copyright (c) 2022 Duccio Breschi
 # SPDX-License-Identifier: MIT
 
-if SHIELD_OPENWORK36_LEFT
+if SHIELD_HATSU_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "OPENWORK36"
+    default "HATSU"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
 endif
 
-if SHIELD_OPENWORK36_LEFT || SHIELD_OPENWORK36_RIGHT
+if SHIELD_HATSU_LEFT || SHIELD_HATSU_RIGHT
 
 config ZMK_SPLIT
     default y
